@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About Declutter — AI Meeting Notes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site">
+    <div class="inner">
+      <a class="brand" href="index.html">Declutter</a>
+      <nav>
+        <a href="marketing.html">About</a>
+        <a href="support.html">Support</a>
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="terms-of-service.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h1>About Declutter</h1>
+    <p class="meta">An iOS app for turning recorded meetings into clean, shareable notes.</p>
+
+    <h2>What it does</h2>
+    <p>You hit Record. You talk for ten minutes — or sixty. You hit Stop. A few seconds later, Declutter hands you a formatted document: a title, a summary, the topics you covered, the decisions you made, and the action items you committed to. You read it, edit anything that's off, and either save it to your history or send it to people by email, PDF, or Markdown.</p>
+
+    <h2>How it works</h2>
+    <ul>
+      <li><strong>Audio stays on your phone.</strong> Apple's on-device Speech framework converts your recording to text directly on your iPhone. The audio file is never uploaded.</li>
+      <li><strong>Only text leaves the device, when you say so.</strong> When you tap Generate, the transcript is sent to a private backend that calls Anthropic Claude. The model writes a clean meeting note. The result comes back to your phone.</li>
+      <li><strong>Your meetings stay yours.</strong> Notes are stored under your account with row-level security in Postgres. No one else, including us, browses your meeting list.</li>
+      <li><strong>Delete on demand.</strong> Wipe a single meeting in two taps. Wipe your entire account in three. Either action permanently removes your data within 30 days.</li>
+    </ul>
+
+    <h2>Why we built it</h2>
+    <p>Most meeting tools either upload your audio to a server you can't audit, or charge you per minute, or bury the formatted notes behind a workspace you have to share with a team. Declutter is built around three constraints: audio doesn't leave your phone, you own the output, and the app is fast enough to be the first thing you reach for after a call.</p>
+
+    <h2>Who it's for</h2>
+    <ul>
+      <li>Founders and operators who want a record of every conversation without spinning up a Notion page.</li>
+      <li>Researchers and journalists capturing interviews where audio confidentiality matters.</li>
+      <li>Anyone who runs lots of meetings and wants action items written down before they forget.</li>
+    </ul>
+
+    <h2>Get in touch</h2>
+    <p>Questions, bug reports, or feature requests: <a href="mailto:nagabs66@gmail.com">nagabs66@gmail.com</a>.</p>
+  </main>
+  <footer class="site">
+    <a href="privacy-policy.html">Privacy</a>
+    <a href="terms-of-service.html">Terms</a>
+    <a href="support.html">Support</a>
+    <a href="marketing.html">About</a>
+    <p>&copy; 2026 @Satish Nagabhyrava</p>
+  </footer>
+</body>
+</html>
